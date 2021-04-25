@@ -66,7 +66,7 @@ fs.readdir(input, async (err, files) => {
               quality: Number(argv.quality)
             }),
             imageminPngquant({
-              quality: [Number(argv.quality)]
+              quality: [Number(argv.quality), Number(argv.quality)]
             })
           ]
         }).then(async g => {
