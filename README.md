@@ -1,39 +1,44 @@
 # Convert Rename
 
-#### Install
+## Install
 
 ```powershell
 npm install
 node . [args]
 ```
 
-##### Example
+## Example
 
 ```powershell
 npm install
 node . --quality 45
 ```
 
-#### Command line options
+## Command line options
 
-##### output
+### output
  Type: `folder`
+ 
  Default: `./output`
 
-##### input
+### input
  Type: `folder`
+ 
  Default: `./input`
 
-##### rename
+### rename
  Type: `boolean | string | uuid string`
+ 
  Default: `uuid` _uuid will give random uuid_
 
-##### compress
+### compress
  Type: `boolean`
+ 
  Default: `true`
 
-##### quality
+### quality
  Type: `number`
+
  Default: `70`
 
 
